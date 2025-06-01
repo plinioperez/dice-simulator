@@ -11,4 +11,5 @@ def lanzar_dados(amount, sides):
     return resultados
 
 if __name__ == "__main__":
-    lanzar_dados(amount=5, sides=6)
+    lanzar_dados(amount=5, sides=20)
+
