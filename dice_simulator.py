@@ -6,7 +6,7 @@ def lanzar_dados(amount, sides):
     for i in range(amount):
         resultado = dice.roll(f'd{sides}')
         resultados.append(resultado)
-        print(f"Lanzamiento {i + 1} número obtenido {resultado}")
+        print(f">>> Lanzamiento {i + 1} obtuvo el número: {resultado}")
         time.sleep(5)
     return resultados
 
